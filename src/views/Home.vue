@@ -1,18 +1,20 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <list-create-form></list-create-form>
+  <list-table> </list-table>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import ListTable from '@/components/ListTable.vue'
+import ListCreateForm from '@/components/ListCreateForm.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    ListTable,
+    ListCreateForm
   }
 }
 </script>
