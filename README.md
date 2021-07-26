@@ -1,19 +1,10 @@
-# vue_project
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+วิธีการ run
+1.clone repository นี้
+2.พิมพ์คำสั่ง npm install ใน terminal
+3.พิมพ์คำสั่ง npm run serve ใน  terminal
+** กรอกให้ครบทุกช่อง**
+4.ใส่วันที่
+5.เลิอกรายการว่าเป็น รายรับ หรือรายจ่าย
+6.กรอกจำนวนเงิน(ไม่ให้ใส่จำนวนเงินติดลบ)
+7.กรอกคำอธิบายว่ารายการนั้นทำอะไร
+8.จากนั้นกดปุ่ม Add เพื่อเพิ่มข้อมูลเข้าตาราง
